@@ -1,0 +1,286 @@
+ yum install docker -y
+    2  systemctl restart docker
+    3  systemctl status docker
+    4  docker swarm init --advertise-addr 172.31.47.63
+    5  docker swarm init --advertise-addr 172.31.35.13
+    6  docker remove
+    7  docker swarm -f
+    8  docker swarm leave
+    9  docker swarm leave -f
+   10  docker swarm init --advertise-addr 172.31.35.13
+   11  ls
+   12  docker swarm ls
+   13  docker swarm node
+   14  docker node ls
+   15  history
+   16  vim jenkins.sh
+   17  sh jenkins.sh
+   18  vim Dockerfile
+   19  docker images
+   20  docker build -t r:v1 .
+   21  vim Dockerfile
+   22  docker build -t r:v1 .
+   23  docker push r:v1 munihemanth/datascience:latest
+   24  docker push --help'
+   25  docker push --help
+   26  docker push r:v1 munihemanth/datascience:all
+   27  docker push r:v1 munihemanth/datascience
+   28  docker push r:v1 munihemanth/datascience:tagname
+   29  docker push munihemanth/datascience:r
+   30  docker push munihemanth/datascience:r:v1
+   31  docker push r:v1  munihemanth/datascience
+   32  docker push r:v1  munihemanth/datascience:v1
+   33  docker push r:v1 munihemanth/datascience
+   34  docker push  munihemanth/datascience:v1
+   35  docker push  munihemanth/datascience:r
+   36  docker login
+   37  docker push  munihemanth/datascience:r
+   38  docker images
+   39  docker ps -a
+   40  docker push munihemanth/ datascience:ubuntu
+   41  docker push munihemanth/ datascience:r
+   42  docker push munihemanth/ datascience:r1
+   43  docker build -t swiggy:v1 .
+   44  vim .dockerignore
+   45  docker images
+   46  vim Dockerfile
+   47  ddocker build -t swiggy:v3 .
+   48  docker build -t swiggy:v3 .
+   49  ll
+   50  cat Dockerfile
+   51  LLK
+   52  LL
+   53  ll
+   54  vim index.html
+   55  docker build -t swiggy:v3 .
+   56  docker push munihemanth
+   57  /
+   58  docker push munihemanth/ datascience:swiggy
+   59  docker push swiggy:v3 munihemanth/ datascience:v3
+   60  docker push swiggy:v3 munihemanth/ datascience
+   61  docker images
+   62  docker image tag swiggy1 munihemanth/swiggy1:latest
+   63  docker image tag swiggy1 munihemanth/swiggy:latest
+   64  docker image tag swiggy munihemanth/swiggy:latest
+   65  docker  tag swiggy munihemanth/swiggy:latest
+   66  docker  tag  munihemanth/swiggy:latest
+   67  docker  tag  munihemanth/datascience swiggy:latest
+   68  docker  tag  munihemanth/datascienceswiggy:latest
+   69  ll
+   70   cd /var/lib/jenkins/workspace/
+   71  ll
+   72  cat pipeline
+   73  cd pipeline
+   74  ll
+   75  cd
+   76  ll
+   77  chmod 777 /var/run/docker.sock
+   78   cd /var/lib/jenkins/workspace/
+   79  ll
+   80  cd pipline
+   81  cd pipeline
+   82  chmod 777 /var/run/docker.sock
+   83  ll
+   84  13.233.254.58
+   85  chmod 777 /var/run/
+   86  ll
+   87  cd
+   88  chmod 777 /var/run/
+   89  ll
+   90  chmod 777 /var/run/docker.sock
+   91  ll -al
+   92  cd .docker
+   93  ll
+   94  cd .sock
+   95  ll
+   96  cd config.json
+   97  cat config.json
+   98  cd
+   99  sh jenkins.sh
+  100  cd /var/lib/jenkins.sh
+  101  cd /var/lib/
+  102  ll
+  103  cd config.xml
+  104  cd
+  105  cd /var/lib/jenkins/
+  106  ll
+  107  cd workspace
+  108  ll
+  109  cd
+  110  cd /var/lib/jenkins/config.xml
+  111  vim  /var/lib/jenkins/config.xml
+  112  systemctl start jenkins
+  113  systemctl status jekins
+  114  systemctl status jenkins
+  115  systemctl resstart jenkins.service
+  116  systemctl restart jenkins.service
+  117  systemctl status jenkins.service
+  118  ll
+  119  cat index.html
+  120  ll
+  121  chmod 777 /var/rundocker.sock
+  122  chmod 777/var/
+  123  chmod 777
+  124  chmod 777 /var/run/docker.sock
+  125  cd /var/lib/jenkins/workspace/pipeline1/
+  126  ll
+  127  cd /var/lib/jenkins/workspace/
+  128  ll
+  129  cd pilpeline1
+  130  ll
+  131  cd pilpeline
+  132  cd pipeline
+  133  ll
+  134  cd -
+  135  ll
+  136  cd pipeline
+  137  ll
+  138  chmod 777 /var/run/docker.sock
+  139  ll
+  140  cd -
+  141  chmod 777 /var/run/docker.sock
+  142  cd -
+  143  cd
+  144  chmod 777 /var/run/docker.sock
+  145  ll
+  146  cd /var/lib/jenkins/workspace/job1
+  147  ll
+  148  cd
+  149  cd /var/lib/jenkins/workspace/pilpeline1
+  150  ll
+  151  cd
+  152  ll
+  153  cd /var/lib/jenkins/workspace/
+  154  ll
+  155  mv pipline pilpeline1
+  156  cp pipline pilpeline1
+  157  ll
+  158  cd pipeline@temp
+  159  ll
+  160  cd pipeline@tmp
+  161  ll
+  162  cd
+  163  ll
+  164  histoy
+  165  history
+  166  docker build -t swiggy:v3 .
+  167  docker build -t swiggy:v4 .
+  168  docker images
+  169  systemctl start docker
+  170  systemctl status docker
+  171  ll
+  172  docker images
+  173  docker build -t swiggy:v4 .
+  174  docker push munihemanth/datascience:
+  175  docker images
+  176  d70f640587fc munihemanth/datascience:v3
+  177  swiggy  munihemanth/datascience:v3
+  178  ll
+  179  cd  /var/lib/jenkins/workspace/pilpeline1
+  180  ll
+  181  cd
+  182  ] /var/lib/jenkins/workspace/
+  183  cd  /var/lib/jenkins/workspace/pilpeline1
+  184  ll
+  185  cd
+  186   /var/lib/jenkins/workspace/pilpeline1
+  187  cd  /var/lib/jenkins/workspace/
+  188  ll
+  189  rm -rf p*
+  190  ll
+  191  cd
+  192  cd  /var/lib/jenkins/workspace/
+  193  ll
+  194  cd pipeline
+  195  ll
+  196  lds
+  197  ls
+  198  ls -al
+  199  cd .git
+  200  ll
+  201  cdd
+  202  cd  /var/lib/jenkins/workspace/pipeline
+  203  ll
+  204  chmod 777 /var/run/docker.sock
+  205  ll
+  206  chmod 777 /var/run/docker.sock
+  207  systemctl daemon-reload
+  208  systemctl restart docker
+  209  systemctl status docker
+  210  docker images
+  211  docker login
+  212  ll
+  213  cd
+  214  git -v
+  215  chmod 777 /var/run/docker.sock
+  216  systemctl daemon-reload
+  217  systemctl status docker
+  218  docker images
+  219  docker tag seiggy:v3 munihemanth / datascience
+  220  docker tag seiggy:v3 munihemanth/datascience
+  221  chmod 777 /var/run/docker.sock
+  222  systemctl daemon-reload
+  223  systemctl restart docker
+  224  systemctl status docker
+  225  docker tag swiggy:v3 munihemanth/datascience
+  226  docker images
+  227  vim docker-compose.yml
+  228  ll
+  229  docker stack ls
+  230  cd  /var/lib/jenkins/workspace/
+  231  ll
+  232  cd pipeline
+  233  ll
+  234  cd -
+  235  cd job1
+  236  ll
+  237  cd
+  238  vim docker-compose.yml
+  239  ll
+  240  cd  /var/lib/jenkins/workspace/
+  241  ll
+  242  cd pipeline
+  243  ll
+  244  cd
+  245  cat docker-compose.yml
+  246  docker stack ls
+  247  ll
+  248  history
+  249  historydocker tag swiggy:v3 munihemanth/datasciencedocker tag swiggy:v3 munihemanth/datasciencedocker tag swig
+  250  docker push0 swiggy:v3 munihemanth/datascience
+  251  docker push swiggy:v3 munihemanth/datascience
+  252  docker push swiggy:v2 munihemanth/datascience
+  253  docker push --help
+  254  docker push swiggy:v2 munihemanth/datascience --all
+  255  docker push swiggy:v2 munihemanth/datascience--all
+  256  cat docker-compose.yml
+  257  cd  /var/lib/jenkins/workspace/
+  258  ll
+  259  cd pipeline
+  260  ll
+  261  histroy
+  262  history
+  263  docker images
+  264  docker ps
+  265  cd /var/run/docker.sock.
+  266  cd /var/run/docker.sock
+  267  ll
+  268  sh jenkins.sh
+  269  cat index.html
+  270  chmod 777 /var/run/docker.sock
+  271  systemctl start jenkins
+  272  systemctl status jekins
+  273  docker images
+  274  systemctl daemon-reload
+  275* systemctl restart docker.service\
+  276  docker images
+  277  docker login
+  278  docker tag swiggy:latest munihemanth/dev:hemanth
+  279  docker tag d70f640587fc  munihemanth/dev:hemanth
+  280  docker push munihemanth/dev:hemanth
+  281  docker tag swiggy:v4 munihemanth/azure:hemanth
+  282  docker push munihemanth/azure:hemanth
+  283  docker tag swiggy:v4 munihemanth/devops:hemanth
+  284  docker push munihemanth/devops:hemanth
+  285  docker tag swiggy:v4 munihemanth/aws:hemanth
+  286  docker push munihemanth/aws:hemanth
